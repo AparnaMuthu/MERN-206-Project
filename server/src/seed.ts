@@ -5,22 +5,22 @@ import User from './models/User.js';
 import Book from './models/Book.js';
 import BorrowRecord from './models/BorrowRecord.js';
 
-// Import mock data from the client's mock folder
-import mockUsers from '../../client/src/mock/mockUsers.json' with { type: 'json' };
-import mockBooks from '../../client/src/mock/mockBooks.json' with { type: 'json' };
-import mockBorrowRecords from '../../client/src/mock/mockBorrowRecords.json' with { type: 'json' };
+// Import seed data from the server's own seed-data folder
+import seedUsers from './seed-data/users.json' with { type: 'json' };
+import seedBooks from './seed-data/books.json' with { type: 'json' };
+import seedBorrows from './seed-data/borrowRecords.json' with { type: 'json' };
 
 /**
- * Seed script — populates the database with mock data.
+ * Seed script — populates the database with sample data.
+ *
+ * Run with: npm run seed
  *
  * What it does:
  * 1. Connects to MongoDB Atlas
- * 2. Clears existing data in all 3 collections (fresh start)
- * 3. Inserts users and books, mapping old string IDs to new MongoDB ObjectIds
- * 4. Inserts borrow records with the correct ObjectId references
+ * 2. Clears existing data in all 3 collections
+ * 3. Inserts users and books with new ObjectIds
+ * 4. Inserts borrow records referencing those ObjectIds
  * 5. Disconnects and exits
- *
- * Run with: npm run seed
  */
 async function seed() {
   try {
@@ -34,12 +34,11 @@ async function seed() {
     console.log('🗑️  Cleared existing collections');
 
     // --- Insert Users ---
-    // We need to map old IDs (e.g., "user-1") to new MongoDB ObjectIds
-    const userIdMap = new Map<string, mongoose.Types.ObjectId>();
+    const userIds: mongoose.Types.ObjectId[] = [];
 
-    const usersToInsert = mockUsers.map((user) => {
+    const usersToInsert = seedUsers.map((user) => {
       const objectId = new mongoose.Types.ObjectId();
-      userIdMap.set(user.id, objectId);
+      userIds.push(objectId);
       return {
         _id: objectId,
         name: user.name,
@@ -55,11 +54,11 @@ async function seed() {
     console.log(`✅ Inserted ${usersToInsert.length} users`);
 
     // --- Insert Books ---
-    const bookIdMap = new Map<string, mongoose.Types.ObjectId>();
+    const bookIds: mongoose.Types.ObjectId[] = [];
 
-    const booksToInsert = mockBooks.map((book) => {
+    const booksToInsert = seedBooks.map((book) => {
       const objectId = new mongoose.Types.ObjectId();
-      bookIdMap.set(book.id, objectId);
+      bookIds.push(objectId);
       return {
         _id: objectId,
         title: book.title,
@@ -78,21 +77,12 @@ async function seed() {
     console.log(`✅ Inserted ${booksToInsert.length} books`);
 
     // --- Insert Borrow Records ---
-    // Map old string references (bookId, userId) to real ObjectIds
-    const borrowsToInsert = mockBorrowRecords.map((record) => {
-      const bookObjectId = bookIdMap.get(record.bookId);
-      const userObjectId = userIdMap.get(record.userId);
-
-      if (!bookObjectId || !userObjectId) {
-        throw new Error(
-          `Could not map IDs for borrow record: bookId=${record.bookId}, userId=${record.userId}`
-        );
-      }
-
+    // Uses array indexes to reference the correct user/book ObjectIds
+    const borrowsToInsert = seedBorrows.map((record) => {
       return {
         _id: new mongoose.Types.ObjectId(),
-        bookId: bookObjectId,
-        userId: userObjectId,
+        bookId: bookIds[record.bookIndex],
+        userId: userIds[record.userIndex],
         borrowDate: new Date(record.borrowDate),
         dueDate: new Date(record.dueDate),
         returnDate: record.returnDate ? new Date(record.returnDate) : null,
