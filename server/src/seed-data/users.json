@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Priya Sharma",
+    "email": "priya.sharma@email.com",
+    "password": "priya@123",
+    "membershipId": "LIB-2024-001",
+    "role": "user",
+    "createdAt": "2024-01-15T09:00:00.000Z"
+  },
+  {
+    "name": "Rahul Mehta",
+    "email": "rahul.mehta@email.com",
+    "password": "rahul@123",
+    "membershipId": "LIB-2024-002",
+    "role": "user",
+    "createdAt": "2024-02-20T10:30:00.000Z"
+  },
+  {
+    "name": "Anita Desai",
+    "email": "anita.desai@email.com",
+    "password": "anita@123",
+    "membershipId": "LIB-2024-003",
+    "role": "admin",
+    "createdAt": "2024-01-05T08:00:00.000Z"
+  },
+  {
+    "name": "Vikram Patel",
+    "email": "vikram.patel@email.com",
+    "password": "vikram@123",
+    "membershipId": "LIB-2024-004",
+    "role": "user",
+    "createdAt": "2024-03-10T14:00:00.000Z"
+  },
+  {
+    "name": "Sneha Iyer",
+    "email": "sneha.iyer@email.com",
+    "password": "sneha@123",
+    "membershipId": "LIB-2024-005",
+    "role": "admin",
+    "createdAt": "2024-01-02T07:30:00.000Z"
+  },
+  {
+    "name": "Arjun Nair",
+    "email": "arjun.nair@email.com",
+    "password": "arjun@123",
+    "membershipId": "LIB-2024-006",
+    "role": "user",
+    "createdAt": "2024-04-18T11:00:00.000Z"
+  }
+]

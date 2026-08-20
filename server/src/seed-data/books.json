@@ -1,0 +1,200 @@
+[
+  {
+    "title": "The God of Small Things",
+    "author": "Arundhati Roy",
+    "isbn": "978-0-06-097749-8",
+    "genre": "Fiction",
+    "description": "A story of twins navigating love, loss, and social boundaries in Kerala, India.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780060977498-L.jpg",
+    "totalCopies": 4,
+    "availableCopies": 2,
+    "createdAt": "2024-01-10T09:00:00.000Z"
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "isbn": "978-0-441-17271-9",
+    "genre": "Sci-Fi",
+    "description": "A sweeping epic set on the desert planet Arrakis, exploring politics, religion, and ecology.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg",
+    "totalCopies": 3,
+    "availableCopies": 3,
+    "createdAt": "2024-01-10T09:00:00.000Z"
+  },
+  {
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "isbn": "978-1-4516-4853-9",
+    "genre": "Biography",
+    "description": "The exclusive biography of Apple co-founder Steve Jobs, based on extensive interviews.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9781451648539-L.jpg",
+    "totalCopies": 2,
+    "availableCopies": 1,
+    "createdAt": "2024-01-12T10:00:00.000Z"
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "isbn": "978-0-06-231609-7",
+    "genre": "History",
+    "description": "An exploration of how Homo sapiens came to dominate the world through cognitive, agricultural, and scientific revolutions.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
+    "totalCopies": 5,
+    "availableCopies": 4,
+    "createdAt": "2024-01-15T08:30:00.000Z"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "isbn": "978-0-307-45440-0",
+    "genre": "Mystery",
+    "description": "A journalist and a hacker investigate a decades-old disappearance in a wealthy Swedish family.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780307454409-L.jpg",
+    "totalCopies": 3,
+    "availableCopies": 0,
+    "createdAt": "2024-01-18T09:00:00.000Z"
+  },
+  {
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "isbn": "978-0-553-29335-7",
+    "genre": "Sci-Fi",
+    "description": "A mathematician develops a theory to predict and shorten an impending dark age of the galactic empire.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780553293357-L.jpg",
+    "totalCopies": 3,
+    "availableCopies": 3,
+    "createdAt": "2024-01-20T10:00:00.000Z"
+  },
+  {
+    "title": "Midnight's Children",
+    "author": "Salman Rushdie",
+    "isbn": "978-0-812-97653-1",
+    "genre": "Fiction",
+    "description": "A tale of children born at midnight on India's independence, gifted with magical powers.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780812976533-L.jpg",
+    "totalCopies": 2,
+    "availableCopies": 2,
+    "createdAt": "2024-02-01T09:00:00.000Z"
+  },
+  {
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "isbn": "978-0-307-47427-8",
+    "genre": "Mystery",
+    "description": "A symbologist and cryptologist race to uncover a secret hidden by a covert society for centuries.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780307474278-L.jpg",
+    "totalCopies": 4,
+    "availableCopies": 4,
+    "createdAt": "2024-02-05T10:00:00.000Z"
+  },
+  {
+    "title": "Wings of Fire",
+    "author": "A.P.J. Abdul Kalam",
+    "isbn": "978-81-7371-146-6",
+    "genre": "Biography",
+    "description": "An autobiography of India's missile man and former president, detailing his rise from humble origins.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9788173711466-L.jpg",
+    "totalCopies": 3,
+    "availableCopies": 3,
+    "createdAt": "2024-02-10T08:00:00.000Z"
+  },
+  {
+    "title": "Guns, Germs, and Steel",
+    "author": "Jared Diamond",
+    "isbn": "978-0-393-31755-8",
+    "genre": "History",
+    "description": "An investigation into why certain civilizations advanced faster than others, exploring geography and environment.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780393317558-L.jpg",
+    "totalCopies": 2,
+    "availableCopies": 0,
+    "createdAt": "2024-02-15T09:30:00.000Z"
+  },
+  {
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "isbn": "978-0-441-56956-4",
+    "genre": "Sci-Fi",
+    "description": "A washed-up computer hacker is hired for one last job in a dystopian cyberspace future.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780441569564-L.jpg",
+    "totalCopies": 2,
+    "availableCopies": 2,
+    "createdAt": "2024-02-20T10:00:00.000Z"
+  },
+  {
+    "title": "The White Tiger",
+    "author": "Aravind Adiga",
+    "isbn": "978-1-4165-6259-7",
+    "genre": "Fiction",
+    "description": "A darkly comic tale of a driver's rise from poverty to success in modern India.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9781416562597-L.jpg",
+    "totalCopies": 3,
+    "availableCopies": 3,
+    "createdAt": "2024-03-01T09:00:00.000Z"
+  },
+  {
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "isbn": "978-0-307-58836-4",
+    "genre": "Mystery",
+    "description": "A psychological thriller about a wife's disappearance and the secrets beneath a seemingly perfect marriage.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780307588364-L.jpg",
+    "totalCopies": 3,
+    "availableCopies": 2,
+    "createdAt": "2024-03-05T10:00:00.000Z"
+  },
+  {
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "isbn": "978-0-553-38016-3",
+    "genre": "History",
+    "description": "An accessible exploration of cosmology, black holes, and the nature of time by a legendary physicist.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg",
+    "totalCopies": 4,
+    "availableCopies": 4,
+    "createdAt": "2024-03-10T08:00:00.000Z"
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "isbn": "978-1-59463-193-1",
+    "genre": "Fiction",
+    "description": "A haunting tale of friendship and redemption set against decades of Afghan history.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9781594631931-L.jpg",
+    "totalCopies": 3,
+    "availableCopies": 3,
+    "createdAt": "2024-03-15T09:00:00.000Z"
+  },
+  {
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "isbn": "978-1-5247-6313-8",
+    "genre": "Biography",
+    "description": "The memoir of the former First Lady of the United States, from childhood to the White House.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9781524763138-L.jpg",
+    "totalCopies": 3,
+    "availableCopies": 3,
+    "createdAt": "2024-03-20T10:00:00.000Z"
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "isbn": "978-0-345-39180-3",
+    "genre": "Sci-Fi",
+    "description": "A comedic sci-fi adventure following the last human after Earth's demolition for a hyperspace bypass.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780345391803-L.jpg",
+    "totalCopies": 4,
+    "availableCopies": 4,
+    "createdAt": "2024-04-01T09:00:00.000Z"
+  },
+  {
+    "title": "And Then There Were None",
+    "author": "Agatha Christie",
+    "isbn": "978-0-06-227359-8",
+    "genre": "Mystery",
+    "description": "Ten strangers are invited to an island where they are killed one by one in this classic mystery.",
+    "coverImageUrl": "https://covers.openlibrary.org/b/isbn/9780062273598-L.jpg",
+    "totalCopies": 2,
+    "availableCopies": 1,
+    "createdAt": "2024-04-05T10:00:00.000Z"
+  }
+]
